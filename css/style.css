@@ -1,0 +1,73 @@
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+  }
+  .logo-web{
+  align-items: center;
+  letter-spacing: 0.03em;
+text-transform: uppercase;
+  color: #4D5AE5;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  }
+  
+  .logo-studio{
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2E2F42;
+  }
+  
+.list{
+    list-style: none;
+}
+  .link{
+    text-decoration: none;
+  }
+.header-navigation {
+}
+.logo-web {
+}
+.logo-studio {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.item{
+    background: #2E2F42;
+   }
+.btn{
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+   }
+
+   .hero {
+}
+.hero-name {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-subtitle {
+}

@@ -8,15 +8,15 @@ body {
   --accent-color: #f4f4f4;
   --thirdary-title-color: #ffffff;
   --fourdary-title-color: #e7e9fc; 
+  --back-color-title:  #4d5ae5;
   --secondary-font: 'Raleway', sans-serif;
 
 }
 .logo-web {
   font-family: var(--secondary-font)
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #4d5ae5;
+  color: --;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -27,7 +27,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-title-color);
@@ -40,8 +39,12 @@ body {
   text-decoration: none;
 }
 
-.btn-title:hover,
-.btn-title:focus {
+.button-title:hover,
+.button-title:focus {
+  background: #404bbf;
+}
+.button-link:hover,
+.button-link:focus {
   background: #404bbf;
 }
 
@@ -57,10 +60,13 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /*------Head------*/
 .header-navigation {
 }
-
+.header-head:hover{
+  color: var(--back-color-title)
+}
 .header-item {
   font-weight: 500;
   font-size: 16px;
@@ -68,12 +74,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
+.button: hover,
+.button:focus;{
+color: var(--accent-color);
+background: #404bbf;
+}
 .header-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
+  
 }
 
 .item {
@@ -84,6 +97,16 @@ body {
   line-height: 1.08;
   letter-spacing: 0.02em;
   color: var(--thirdary-title-color);
+}
+.button-title{
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
 }
 .btn {
   font-weight: 500;
@@ -157,7 +180,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
@@ -188,8 +210,5 @@ footer {
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
 }
-.btn-title {
-  width: 116px;
-  height: 0.42;
-  background: var(--accent-color);
-}
+ 
+ 

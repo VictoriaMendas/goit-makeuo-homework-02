@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+ color: var(--main-title-color);
 }
 
 :root {
@@ -9,28 +10,11 @@ body {
   --thirdary-title-color: #ffffff;
   --fourdary-title-color: #e7e9fc; 
   --back-color-title:  #4d5ae5;
+  --background-color: #404bbf;
   --secondary-font: 'Raleway', sans-serif;
 
 }
-.logo-web {
-  font-family: var(--secondary-font)
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: --;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-}
 
-.logo-studio {
-  font-family: var(--secondary-font)
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-}
 
 .link {
   list-style: none;
@@ -41,11 +25,12 @@ body {
 
 .button-title:hover,
 .button-title:focus {
-  background: #404bbf;
+  background: var(--background-color);
 }
 .button-link:hover,
 .button-link:focus {
-  background: #404bbf;
+  color:var(--thirdary-title-color);
+  background: var(--background-color);
 }
 
 .visually-hidden {
@@ -62,23 +47,42 @@ body {
 }
 
 /*------Head------*/
+
+.logo-studio {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.logo-web {
+  font-family: var(--secondary-font);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--back-color-title);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
 .header-navigation {
 }
-.header-head:hover{
-  color: var(--back-color-title)
-}
-.header-item {
+.header-head:hover,
+.header-head:focus {
+color: var(--background-color);
+ 
+  }
+
+.header-head{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
-.button: hover,
-.button:focus;{
-color: var(--accent-color);
-background: #404bbf;
-}
+
 .header-link {
   font-style: normal;
   font-weight: 400;
@@ -98,30 +102,24 @@ background: #404bbf;
   letter-spacing: 0.02em;
   color: var(--thirdary-title-color);
 }
-.button-title{
-  font-style: normal;
+.item-button-title{
+  font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--thirdary-title-color);
 }
-.btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  letter-spacing: 0.04em;
-  color: var(--thirdary-title-color);
+.button-style{
+  background: #404BBF;
+}
+ .button-style:hover{
+  background: #4D5AE5;
 }
 .color {
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  background: #4d5ae5;
+  background: var(--background-color);
 }
 /*------Hero------*/
 .hero {
@@ -175,12 +173,18 @@ color: #FFFFFF;
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
 }
+
+/*------Footer------*/
+footer {
+  background: var(--main-title-color);
+}
+
 .logo-color {
-  font-family: var(--secondary-font)
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;s
   text-transform: uppercase;
   color: var(--accent-color);
 }
@@ -191,11 +195,22 @@ color: #FFFFFF;
   letter-spacing: 0.02em;
   color: var(--fourdary-title-color);
 }
-/*------Footer------*/
-footer {
-  background: var(--main-title-color);
+/*----Button-Portfolio----*/
+.button {
 }
+.button-link {
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;D
+  letter-spacing: 0.04em;
+  color: var(--back-color-title);
+}
+/*----Images-portfolio----*/
+.images {
 
+}
 .text {
   font-weight: 500;
   font-size: 20px;
